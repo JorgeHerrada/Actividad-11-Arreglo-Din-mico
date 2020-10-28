@@ -18,6 +18,8 @@ int main()
         cout << arreglo[i] << endl;
     }
 
+    cout << endl;
+
     arreglo.insertar_inicio("2.-al inicio del arreglo");
     arreglo.insertar_inicio("1.-Probando insertar");
 
@@ -26,7 +28,5 @@ int main()
         cout << arreglo[i] << endl;
     }
     
-    
-
     return 0;
 }
